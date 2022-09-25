@@ -1,111 +1,175 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
-             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:title" content="Punisher - 프로필 링크" />
-        <meta property="og:description" content="내 생에 첫 코딩 프로젝트" />
-        <meta property="og:image" content="공유할 이미지" />
-        <title>Punisher - 프로필 링크</title>
-        <style>
-            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="FL 김보성">
+    <meta property="og:description" content="안녕하세요. 스스로 발전하는 김보성입니다.">
+    <meta property="og:image" content="https://img1.daumcdn.net/thumb/C100x100/?fname=htt…e/user/eD2J/image/GfnrXuopuN2uW_LaLqX-1caGT5s.jpg">
+    <title>FL 김보성    </title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
         * {
             font-family: "Pretendard",serif;
         }
-            
-          body {
-            background-color: #44398a;
-          }
-          .profile {
+        body {
+            background-color:#373737;
+        }
+        .pro {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            margin-bottom: 30px;
+        }
+        .profile {
             width: 100px;
             height: 100px;
-
-            background-color: green;
             border-radius: 100%;
-
-            border : 2px solid white;
-
-            background-image: url('프로필사진.jpg');
+            border: 5px solid rgb(255, 255, 255);
+            background-image: url('https://img1.daumcdn.net/thumb/C100x100/?fname=http://t1.daumcdn.net/brunch/service/user/eD2J/image/GfnrXuopuN2uW_LaLqX-1caGT5s.jpg');
             background-position: center;
             background-size: cover;
-          }
-          .main {
-            color:white;
-            font-size: 20px;
-
-            margin-top: 30px;
-            margin-bottom: 10px;
-          }
-          .sub {
-            color:white;
-            font-size: 14px;
-
-            margin-top: 0px;
-            margin-bottom: 30px;
-          }
-          .wrap {
-            width: 150px;
-            margin: 30px auto 0px auto;
-
+        }
+        .headcopy {
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-          }
-          .wrap >a {
-            width: 300px;
-            height: 50px;
-
-            background-color: white;
-            border-radius: 8px;
-
-            margin-bottom: 10px;
-
+            align-items: flex-start;
+            width: 220px;
+        }
+        .main {
+            color : #FFFFFF;
+            font-size: 27px;
+            size : 20px;
+            font-weight: 800;
+            margin: 0%;
+        }
+        .sub {
+            color : #B1B1B5;
             font-size: 14px;
-            font-weight: bold;
-            color : black;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            text-decoration: none;
-
-            box-shadow: 3px 3px 5px 0px black;
-          }
-          .wrap >a:hover {
-            background-color: grey;
-          }
-          .wrap >video {
+            font-weight: 400;
+            size : 14px;
             margin-top: 10px;
-          }
-        </style>
-    </head>
-    <body>
-        <div class="wrap">
+            margin-bottom: 0px;
+        }
+        .sub2 {
+            color :#B1B1B5; 
+            font-size: 12px;
+            font-weight: 300;
+            size: 14px;
+            margin-top: 5px;
+            margin-bottom: 0px;
+        }
+        .minis {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            gap: 7px;
+            margin-bottom: 40px;
+        }
+        .minis > a {
+            width: 102px;
+            height: 32px;
+            border-radius: 13px;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            white-space:pre-wrap;
+        }
+        .notion {
+            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #f08f8f;
+            color:#ffffff;
+        }
+        .brunch {
+            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #000000;
+            color:#FFFFFF;
+        }
+        .Email {
+            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #ffffff;
+            color:#000000;
+        }
+        .wrap {
+            width: 320px;
+            margin: 30px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .bigs {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            gap: 10px;
+        }
+        .bigs > a {
+            width: 123px;
+            background-color: white;
+            margin-bottom: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-decoration: none;
+            padding: 20px 16px 16px 16px;
+            border-radius: 8px;
+        }
+        .name {
+            font-size: 22px;
+            font-weight: 700;
+            color: #222222;
+            margin-bottom: 45px;
+        }
+        .desc {
+            font-size: 12px;
+            font-weight: 500;
+            color: #555555;
+            margin-bottom: 24px;
+        }
+        .btn {
+            font-size: 12px;
+            font-weight: 700;
+            color: #ffffff;
+            background-color: #26C50C;
+            border-radius: 4px;
+            padding: 5px 4px 5px 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="pro">
+            <div class="headcopy">
+                <h1 class="main">프리랜서<br>김보성 입니다.</h1>
+                <p class="sub">새로운 프로젝트를 진행중입니다.</p>
+                <p class="sub2">Email : 50cent12@daum.net</p>
+            </div>
             <div class="profile"></div>
-            <h1 class="main">Punisher</h1>
-            <p class="sub">코딩...시작되었다</p>
-
-            <a target="_blank" href="https://blog.naver.com/4375kbs">New Me 블로그</a>
-            <a target="_blank" href="https://starmooc.kr/">무료강의 듣기</a>
-            <a target="_blank" href="https://cafe.naver.com/loverussia/381257?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImxvdmVydXNzaWEiLCJhcnRpY2xlSWQiOjM4MTI1NywiaXNzdWVkQXQiOjE2NjA4MzM5NjkwMjN9.pp9RUUGuSu6zJ-_RLSNd87AZeJP3yWE5PPk0MeV8xzs">러시아어 공부 카페</a>
-            <a target="_blank" href="https://www.youtube.com/watch?v=yIt1cj5DjMQ&list=PLtrvy4Dsln-LPBo8rjrKiGkkZMmkwBI_0">착붙는 러시아어 독학</a>
-            <a target="_blank" href="https://cafe.naver.com/emsibt/1044931">공인중개사 공부 카페</a>
-            
-            <audio controls="controls">
-              <source src="audio.mpt" type="audio/mp3" />
-             </audio>
-
-            <video oncontextmenu="return false;" id="myVideo" width="340" controls autoplay>
-               <source src="movie.mp4" type="video/mp4"
-            </video>
-      
         </div>
-      
-    </body>
+        <div class="minis">
+            <a class="notion" target="_blank" href="https://spartacodingclub.kr/">노션             <span style="color:#FFFFFF">></span></a>
+            <a class="brunch" target="_blank" href="https://brunch.co.kr/@b1f179822de6473">브런치         ></a>
+            <a class="Email" target="_blank" href="mailto:50cent12@daum.net">이메일       ></a>
+        </div>
+        <div style="color:#FFFFFF;width: 320px;font-size: 14px;margin-bottom: 8px;">저를 소개합니다.</div>
+        <div class="bigs">
+            <a target="_blank" href="https://drive.google.com/file/d/1vKXXHboiF39D8OdandIZRlAVe4ggnONb/view">
+                <div class="name">이력서</div>
+                <div class="desc">데이터에서 문제를 찾고<br>명확한 가설에 집중하는<br>PM입니다.</div>
+                <div class="btn">다운로드</div>
+            </a>
+            <a target="_blank" href="https://drive.google.com/file/d/1vKXXHboiF39D8OdandIZRlAVe4ggnONb/view">
+                <div class="name">포트폴리오</div>
+                <div class="desc">애자일하게 일하며<br>성과를 냈었던 경험을<br>담았습니다.</div>
+                <div class="btn">다운로드</div>
+            </a>
+        </div>
+        <div style="color:#B1B1B5;font-size: 14px;background-position: center;background-size: cover;position: absolute;bottom: 50px;">@BosungKIm</div>
+    </div>
+</body>
 </html>
